@@ -167,7 +167,7 @@ export default function LandingPage() {
           <div className="animate-slide-up">
             <div className="inline-flex items-center gap-2 rounded-full bg-atlas-accent-muted px-3 py-1 text-[11px] font-medium text-atlas-accent mb-6">
               <Sparkles className="h-3 w-3" />
-              Open-source local-first sound research
+              Open-source sound research
             </div>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-atlas-text leading-[1.05] mb-5">
               Stack, organize,
@@ -177,7 +177,7 @@ export default function LandingPage() {
               <span className="text-gradient-accent">on your machine.</span>
             </h1>
             <p className="text-base text-atlas-text-muted leading-relaxed max-w-lg mb-8">
-              Phonostack is a local-first workspace for sonic libraries. Index folders,
+              Phonostack is a workspace for sonic libraries. Index folders,
               extract metadata, turn existing sounds into prompts, build stacks and variants,
               call models with your own keys when useful, and export research-ready sound sets.
             </p>
@@ -388,7 +388,7 @@ export default function LandingPage() {
               <AtlasMark className="h-7 w-7" />
             </div>
             <span className="text-xs text-atlas-text-muted">
-              Phonostack - open-source local-first tools for sound stacking and research.
+              Phonostack - open-source tools for sound stacking and research.
             </span>
           </div>
           <div className="flex items-center gap-5 text-xs text-atlas-text-muted">

@@ -10,13 +10,13 @@ import { ChatSfxClient } from "./ChatSfxClient";
  * specialised tools, cost estimation, etc. The floating FAB is still available
  * everywhere for quick access; this page is for deeper sessions.
  *
- * Local-first bridge: legacy plan gates are bypassed while the supervisor is
- * migrated to workspace-level provider keys and local project metadata.
+ * Workspace bridge: supervisor access uses local project metadata and
+ * user-configured provider keys.
  */
 export default async function ChatSfxPage() {
   const profile = await getCurrentProfile();
 
-  // The local-first auth shim should always provide a workspace profile.
+  // The workspace auth shim should always provide a workspace profile.
   if (!profile) redirect("/dashboard/home");
 
   return (

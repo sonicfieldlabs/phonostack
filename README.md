@@ -1,6 +1,6 @@
 # Phonostack
 
-Open-source, local-first tools for sound ideas, library organization, stacking, tagging, multiplication, comparison, and listening research.
+Open-source tools for sound ideas, library organization, stacking, tagging, multiplication, comparison, and listening research.
 
 Phonostack is for working with sonic libraries as material: existing folders of sounds, references, prompt cards, metadata, stacks, tags, listening notes, variants, and exportable datasets. It is a local research and design workspace that can use AI models only when the user brings their own provider keys.
 

@@ -102,7 +102,7 @@ function SettingsContent() {
           <LocalLibraryPanel />
 
           <div className="rounded-xl border border-atlas-border-subtle bg-atlas-bg/60 p-4">
-            <div className="text-xs font-semibold uppercase tracking-wider text-atlas-text-dim mb-3">Local-first mode</div>
+            <div className="text-xs font-semibold uppercase tracking-wider text-atlas-text-dim mb-3">Local mode</div>
             <div className="grid gap-3 sm:grid-cols-2">
               {[
                 "Local folder libraries are first-class sources for tagging, listening analysis and stacking.",

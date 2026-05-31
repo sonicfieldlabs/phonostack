@@ -7,9 +7,9 @@ const LAST_UPDATED = "May 2026";
 
 const SECTIONS: { title: string; body: string[] }[] = [
   {
-    title: "1. Local-first intent",
+    title: "1. Local workspace intent",
     body: [
-      "Phonostack is an open-source, local-first sound research and design tool. The app stores project metadata, indexed sounds, generated or derived sounds, provider settings, analysis caches, and exports on the user's machine.",
+      "Phonostack is an open-source sound research and design tool. The app stores project metadata, indexed sounds, generated or derived sounds, provider settings, analysis caches, and exports on the user's machine.",
       "The local runtime is designed for personal workspaces that can be copied, inspected, and shared intentionally.",
     ],
   },
@@ -83,7 +83,7 @@ export default function EulaPage() {
       </div>
 
       <p className="text-[11px] text-atlas-text-dim mt-8 text-center">
-        Phonostack is an open-source local-first workspace for sonic libraries, ideas, stacking,
+        Phonostack is an open-source workspace for sonic libraries, ideas, stacking,
         optional generation, listening analysis, and research exports.
       </p>
     </div>

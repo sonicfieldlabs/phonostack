@@ -147,14 +147,14 @@ export default function DocsPage() {
           </div>
           <div>
             <h1 className="text-xl font-semibold text-atlas-text">Phonostack documentation</h1>
-            <p className="text-xs text-atlas-text-dim">Guide to the local-first sound library and research workflow.</p>
+            <p className="text-xs text-atlas-text-dim">Guide to the sound library and research workflow.</p>
           </div>
         </div>
 
         <Section id="overview" title="Overview">
           <SubSection title="What is Phonostack?">
             <p>
-              Phonostack is a local-first workspace for sound ideas, library organization,
+              Phonostack is a workspace for sound ideas, library organization,
               stacking, tagging, layering, listening, comparison, optional generation, and export.
               It is designed for sonic libraries: existing folders of sounds, metadata, tags,
               prompt cards, variants, stacks, generated sounds, and research datasets.
@@ -270,7 +270,7 @@ export default function DocsPage() {
         </Section>
 
         <div className="text-center text-xs text-atlas-text-dim pb-8">
-          Phonostack local-first workspace.
+          Phonostack workspace.
         </div>
       </main>
     </div>

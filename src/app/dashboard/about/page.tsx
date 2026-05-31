@@ -17,7 +17,7 @@ import { AtlasMark } from "@/app/dashboard/components/atlas-mark";
 const PILLARS = [
   {
     icon: FolderKanban,
-    label: "Local-first",
+    label: "Local workspace",
     body: "A Phonostack project should live on your machine: folders, audio files, metadata, prompt cards, stacks, generated or rendered sounds, analysis caches, and exports.",
   },
   {
@@ -63,7 +63,7 @@ export default function AboutPage() {
           </div>
           <div>
             <h1 className="text-xl font-semibold text-atlas-text">About Phonostack</h1>
-            <p className="text-xs text-atlas-text-dim">Local-first sound ideas, organization, stacking, and listening research.</p>
+            <p className="text-xs text-atlas-text-dim">Sound ideas, organization, stacking, and listening research.</p>
           </div>
         </div>
         <p className="text-sm text-atlas-text-muted leading-relaxed">
@@ -148,7 +148,7 @@ export default function AboutPage() {
 
       <div className="flex items-center justify-between text-xs text-atlas-text-dim pt-2">
         <span className="inline-flex items-center gap-1.5">
-          <Box className="h-3.5 w-3.5" strokeWidth={1.5} /> Open-source local-first release
+          <Box className="h-3.5 w-3.5" strokeWidth={1.5} /> Open-source release
         </span>
         <Link href="/dashboard" className="text-atlas-accent hover:underline inline-flex items-center gap-1">
           Back to workspace

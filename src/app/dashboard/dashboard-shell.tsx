@@ -260,7 +260,6 @@ export function DashboardShell({
     };
   }, [router, handleKeyboard]);
 
-  // Workspace dropdown items — the local-first shell keeps account and
   // Keep local workspace utilities grouped away from primary creative tools.
   const PROFILE_ITEMS = [
     { label: "About", icon: Info, href: "/dashboard/about" },
@@ -304,7 +303,7 @@ export function DashboardShell({
               <span className="block text-[15px] font-semibold text-atlas-text leading-tight">
                 Phonostack
               </span>
-              <span className="block text-xs text-atlas-text-muted mt-0.5">Local-first workspace</span>
+              <span className="block text-xs text-atlas-text-muted mt-0.5">Sound research workspace</span>
             </div>
           )}
         </Link>

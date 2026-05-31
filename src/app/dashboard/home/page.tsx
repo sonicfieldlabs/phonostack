@@ -131,7 +131,7 @@ export default async function DashboardHomePage() {
               Local sound research workspace.
             </h1>
             <p className="text-sm text-atlas-text-muted mt-2 max-w-lg leading-relaxed">
-              Stack, organize, tag, multiply, and evaluate sounds from a local-first project folder.
+              Stack, organize, tag, multiply, and evaluate sounds from a local project folder.
             </p>
           </div>
 
@@ -139,7 +139,7 @@ export default async function DashboardHomePage() {
             <div className="flex items-center justify-between mb-3">
               <span className="atlas-eyebrow">Workspace</span>
               <span className="text-[10px] font-semibold uppercase tracking-wider text-atlas-accent">
-                local-first
+                local
               </span>
             </div>
             <div className="space-y-2 text-xs text-atlas-text-muted">

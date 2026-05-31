@@ -19,7 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Phonostack — Local Sound Research Workspace",
   description:
-    "Open-source local-first tools for sound ideas, library organization, stacking, tagging, multiplication, comparison, listening research and exportable sonic datasets.",
+    "Open-source tools for sound ideas, library organization, stacking, tagging, multiplication, comparison, listening research and exportable sonic datasets.",
   keywords: [
     "sound design",
     "sound libraries",

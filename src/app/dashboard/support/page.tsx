@@ -47,7 +47,7 @@ export default function SupportPage() {
       message,
       "",
       "-",
-      "Sent from Phonostack local-first feedback page.",
+      "Sent from Phonostack feedback page.",
     ]
       .filter((line) => line !== null)
       .join("\n");
@@ -73,7 +73,7 @@ export default function SupportPage() {
         <div>
           <h1 className="atlas-title-lg">Support</h1>
           <p className="text-xs text-atlas-text-muted mt-0.5">
-            Send feedback about the local-first workspace.
+            Send feedback about the workspace.
           </p>
         </div>
       </div>
@@ -95,7 +95,7 @@ export default function SupportPage() {
             the dataset, benchmark, export, or listening workflow you are trying to support.
           </li>
           <li>
-            - This is an open-source local-first transition, so implementation details matter.
+            - This is an open-source project, so implementation details matter.
           </li>
         </ul>
         <p className="text-xs text-atlas-text-muted leading-relaxed pt-2 border-t border-atlas-border-subtle">

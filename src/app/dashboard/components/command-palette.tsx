@@ -38,7 +38,7 @@ const NAV_ITEMS: Omit<PaletteItem, "action">[] = [
   { id: "nav-export", label: "Export Center", description: "Export & packaging", section: "Tools" },
   { id: "nav-settings", label: "Settings", description: "Workspace, providers, appearance, models", section: "Settings" },
   { id: "nav-providers", label: "Providers", description: "Bring your own ElevenLabs key", section: "Settings" },
-  { id: "nav-docs", label: "Docs", description: "Local-first sound research guide", section: "Settings" },
+  { id: "nav-docs", label: "Docs", description: "Sound research guide", section: "Settings" },
 ];
 
 const NAV_PATHS: Record<string, string> = {
